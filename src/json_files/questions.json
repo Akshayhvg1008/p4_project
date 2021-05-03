@@ -1,0 +1,122 @@
+{
+    "id": 1,
+    "name": "General Quiz",
+    "description": "quiz for knowledge",
+    "questions": [
+        {
+            "id": 1010,
+            "name": "What is the Sanskrit word that means “spirit,” “person,” “self” or “consciousness,” and “deity” and also describes the primordial being from whose body the universe was created?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 5,
+                    "questionId": 1,
+                    "name": "Vishnu",
+                    "isAnswer": false
+                },
+                {
+                    "id": 6,
+                    "questionId": 1,
+                    "name": "Purusha",
+                    "isAnswer": true
+                },
+                {
+                    "id": 7,
+                    "questionId": 1,
+                    "name": "shakti",
+                    "isAnswer": false
+                },
+                {
+                    "id": 8,
+                    "questionId": 1,
+                    "name": "shiva",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1011,
+            "name": "What is the oldest of the sacred books of Hinduism, composed in an ancient form of Sanskrit about 1500 BCE?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 5,
+                    "questionId": 1,
+                    "name": "the Aranyakas",
+                    "isAnswer": false
+                },
+                {
+                    "id": 6,
+                    "questionId": 1,
+                    "name": "the Brahmanas",
+                    "isAnswer": false
+                },
+                {
+                    "id": 7,
+                    "questionId": 1,
+                    "name": "the Rigveda",
+                    "isAnswer": true
+                },
+                {
+                    "id": 8,
+                    "questionId": 1,
+                    "name": "the Upanishads",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1012,
+            "name": "What is the term for each of the 10 books into which the Rigveda is divided?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 5,
+                    "questionId": 1,
+                    "name": "mandala",
+                    "isAnswer": true
+                },
+                {
+                    "id": 6,
+                    "questionId": 1,
+                    "name": "aura",
+                    "isAnswer": false
+                },
+                {
+                    "id": 7,
+                    "questionId": 1,
+                    "name": "chakra",
+                    "isAnswer": false
+                },
+                {
+                    "id": 8,
+                    "questionId": 1,
+                    "name": "dharma",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        }
+        
+            
+
+    ]
+}
+
+
+
+

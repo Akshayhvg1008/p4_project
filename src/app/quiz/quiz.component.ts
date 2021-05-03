@@ -1,14 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
-import { QuizService } from '../services/quiz.service';
-import { HelperService } from '../services/helper.service';
 import { Option, Question, Quiz, QuizConfig } from '../tsfiles/index';
 
 @Component({
   selector: 'app-quiz',
   templateUrl: './quiz.component.html',
   styleUrls: ['./quiz.component.css'],
-  providers: [QuizService]
 })
 export class QuizComponent implements OnInit {
   quizes: any[];
@@ -36,15 +33,14 @@ export class QuizComponent implements OnInit {
   };
   
 
-  constructor(private quizService: QuizService) { }
+  constructor() { }
 
   ngOnInit() {
     this.quizes =[
-      { id: 'data/javascript.json', name: 'JavaScript' }
+      { id: 'json_files/questions.json', name: 'General quiz' }
       
     ];
     this.quizName = this.quizes[0].id;
-    this.loadQuiz(this.quizName);
     var ob={
       
         "id": 1,
@@ -170,14 +166,7 @@ export class QuizComponent implements OnInit {
     this.mode = 'quiz';
   }
 
-  loadQuiz(quizName: string) {
-    this.quizService.get(quizName).subscribe(res => {
-      
-     
-      
-    });
-    
-  }
+  
 
   
 
