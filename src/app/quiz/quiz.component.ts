@@ -15,9 +15,9 @@ export class QuizComponent implements OnInit {
   config: QuizConfig = {
     'allowBack': true,
     'allowReview': true,
-    'autoMove': false,  // if true, it will move to next question automatically when answered.
+    'autoMove': false,  
     'pageSize': 1,
-    'requiredAll': false,  // indicates if you must answer all the questions before submitting.
+    'requiredAll': false,  
     'richText': false,
     'shuffleQuestions': false,
     'shuffleOptions': false,
@@ -206,7 +206,7 @@ export class QuizComponent implements OnInit {
     let answers = [];
     this.quiz.questions.forEach(x => answers.push({ 'quizId': this.quiz.id, 'questionId': x.id, 'answered': x.answered }));
 
-    // Post your data to the server here. answers contains the questionId and the users' answer.
+    
     console.log(this.quiz.questions);
     this.mode = 'result';
   }
